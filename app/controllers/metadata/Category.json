@@ -1,0 +1,5 @@
+{
+    "categoryId":               { "dbName": "id",               "type": "Number", "isIdentifier": true },
+    "categoryName":             { "dbName": "name",             "type": "String" },
+    "categoryDescription":      { "dbName": "description",      "type": "String" }
+}

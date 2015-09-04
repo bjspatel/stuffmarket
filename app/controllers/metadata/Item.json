@@ -1,0 +1,8 @@
+{
+    "itemId":               { "dbName": "id",               "type": "Number", "isIdentifier": true },
+    "itemCategoryId":       { "dbName": "categoryId",       "type": "Number" },
+    "itemName":             { "dbName": "name",             "type": "String" },
+    "itemIsService":        { "dbName": "isService",        "type": "Boolean" },
+    "itemDescription":      { "dbName": "description",      "type": "String" },
+    "itemMustHaveSpecs":    { "dbName": "mustHaveSpecs",    "type": "[Object]", "deepMetadata": {}}
+}

@@ -1,0 +1,12 @@
+{
+    "userId":           { "dbName": "id",           "type": "Number", "isIdentifier": true },
+    "userName":         { "dbName": "userName",     "type": "String", "isIdentifier": true },
+    "userPassword":     { "dbName": "password",     "type": "String" },
+    "userFirstName":    { "dbName": "firstName",    "type": "String" },
+    "userLastName":     { "dbName": "lastName",     "type": "String" },
+    "userLocation":     { "dbName": "location",     "type": "Object", "deepStructure": {
+            "userLocationName":         { "dbName": "name",         "type": "String" },
+            "userLocationCoordinates":  { "dbName": "coordinates",  "type": "[Number]" }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+User: {
+    userId: <emailId/facebookId>,
+    isFacebook: <email/facebook>,
+    password: <emailIdPassword>,
+    firstName: <firstName>,
+    lastName: <lastName>,
+    coordinates: [<latitude>, <longitude>]
+}
+
+Category: {
+    id: <categoryId>,
+    name: <categoryName>,
+    description: <description>
+}
+
+Item: {
+    id: <itemId>,
+    categoryId: [<categoryId>],
+    name: <itemName>,
+    isService: <product/service>,
+    description: <description>,
+    mustHaveSpecs: [...specs list...]
+}
+
+ActiveOffer: {
+    item: {
+        itemId: <itemId>,
+        categoryId: <categoryId>,
+        name: <itemName>,
+        entityType: <product/service>,
+        specs: {
+            ...specification values of the item...
+        }
+    },
+    user: {
+        id: <userId>,
+        firstName: <firstName>,
+        lastName: <lastName>
+    },
+    coordinates: [<latitude>, <longitude>],
+    price: <price>,
+    date: <offerPostDate>,
+    bids: [ {
+                bidder: {
+                    bidderId: <userId>,
+                    firstName: <firstName>,
+                    lastName: <lastName>
+                },
+                bid: <bidAmount>,
+                date: <biddingDate>
+            },
+            ...
+        ]
+}
+
+OfferArchive: {
+    item: {
+        itemId: <itemId>,
+        specs: {
+            ...specification values of the item...
+        }
+    },
+    userId: <userId>,
+    coordinates: [<latitude>, <longitude>],
+    price: <price>,
+    date: <offerPostDate>,
+    buyingDetails: {
+        status: <boughtOrNot>,
+        buyerId: <userId>,
+        servedDate: <servedDate>
+    }
+}

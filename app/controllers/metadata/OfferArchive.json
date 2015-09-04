@@ -1,0 +1,18 @@
+{
+    "offerArchiveId":              { "dbName": "id",               "type": "Number", "isIdentifier": true },
+    "offerArchiveItem":            { "dbName": "item",             "type": "Object", "deepStrucutre": {
+            "offerArchiveItemId":       {"dbName": "id",    "type": "String"},
+            "offerArchiveItemSpecs":    {"dbName": "specs", "type": "Object"}
+        }
+    },
+    "offerArchiveUserId":          { "dbName": "userId",           "type": "Integer" },
+    "offerArchivePrice":           { "dbName": "price",            "type":"Number" },
+    "offerArchiveDate":            { "dbName": "date",             "type": "Date" },
+    "offerArchiveBuyingData":      { "dbName": "buyingData",    "type": "Object", "deepStructure": {
+            "offerArchiveBuyingDataIsBought":       { "dbName": "isBought",     "type": "Boolean" },
+            "offerArchiveBuyingDataBuyerId":        { "dbName": "buyerId",      "type": "String" },
+            "offerArchiveBuyingDataArchivedDate":   { "dbName": "archivedDate", "type": "Date" },
+            "offerArchiveBuyingDataBuyingPrice":    { "dbName": "buyingPrice",  "type": "Number" }
+        }
+    }
+}

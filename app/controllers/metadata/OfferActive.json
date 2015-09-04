@@ -1,0 +1,32 @@
+{
+    "offerActiveId":            { "dbName": "_id",           "type": "Number", "isIdentifier": true },
+    "offerActivePrice":         { "dbName": "price",        "type": "Number" },
+    "offerActiveDate":          { "dbName": "date",         "type": "Date" },
+    "offerActiveItem":          { "dbName": "item",         "type": "Object", "deepStructure": {
+            "offerActiveItemId":            { "dbName": "id",           "type": "String" },
+            "offerActiveItemName":          { "dbName": "name",         "type": "String" },
+            "offerActiveItemCategoryId":    { "dbName": "categoryId",   "type": "String" },
+            "offerActiveItemCategoryName":  { "dbName": "categoryName", "type": "String" },
+            "offerActiveItemIsService":     { "dbName": "isService",    "type": "Boolean" }
+        }
+    },
+    "offerActiveUser":          { "dbName": "user",         "type": "Object", "deepStructure": {
+            "offerActiveUserId":            { "dbName": "id",       "type": "String" },
+            "offerActiveUserFirstName":     { "dbName": "firstName",    "type": "String" },
+            "offerActiveUserLastName":      { "dbName": "lastName",     "type": "String" }
+        }
+    },
+    "offerActiveLocation":      { "dbName": "location",     "type": "Object", "deepStructure": {
+            "offerActiveLocationName":      { "dbName": "name",         "type": "String" },
+            "offerActiveLocationCoords":    { "dbName": "coordinates",  "type": "[Number]" }
+        }
+    },
+    "offerActiveBids":          { "dbName": "bids",         "type": "[Object]", "deepStructure": {
+            "offerActiveBidUserId":         { "dbName": "userId",       "type": "String" },
+            "offerActiveBidUserFirstName":  { "dbName": "userFirstName","type": "String" },
+            "offerActiveBidUserLastName":   { "dbName": "userLastName", "type": "String" },
+            "offerActiveBidAmount":         { "dbName": "amount",       "type": "Number" },
+            "offerActiveBidDate":           { "dbName": "date",         "type": "Date" }
+        }
+    }
+}

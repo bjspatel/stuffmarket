@@ -1,0 +1,48 @@
+{
+    "offerActivePrice": 999,
+    "offerActiveDate": "08-29-2015",
+    "offerActiveItemName": "Table Lamp",
+    "offerActiveItemCategoryId": "55e2d88ed08e3134046a5b07",
+    "offerActiveItemCategoryName": "Refrigerator",
+    "offerActiveItemIsService": "false",
+    "offerActiveLocationName": "Ramesh Nagar",
+    "offerActiveLocationCoords": [28.6530, 77.1315],
+}
+
+
+"offerActiveBids": [
+    {
+        "offerActiveBidUserId": "55e26d32d1b66a341921b7ae",
+        "offerActiveBidUserFirstName":  "Bhoomi",
+        "offerActiveBidUserLastName":   "Patel",
+        "offerActiveBidAmount":         500,
+        "offerActiveBidDate":           "08-26-2015"
+    },
+    {
+        "offerActiveBidUserId": "55e26d32d1b66a341921b7ae",
+        "offerActiveBidUserFirstName":  "Archita",
+        "offerActiveBidUserLastName":   "Patel",
+        "offerActiveBidAmount":         550,
+        "offerActiveBidDate":           "08-26-2015"
+    },
+    {
+        "offerActiveBidUserId": "55e26d32d1b66a341921b7ae",
+        "offerActiveBidUserFirstName":  "Bhoomi",
+        "offerActiveBidUserLastName":   "Patel",
+        "offerActiveBidAmount":         600,
+        "offerActiveBidDate":           "08-29-2015"
+    }
+
+    ]
+
+
+
+
+Ramesh Nagar: 77.13152, 28.6526
+India Gate: 77.2293, 28.6129
+Noida: 77.3200, 28.5700
+Ahmedabad: 72.5800, 23.0300
+Maninagar: 72.6003, 22.9995
+Jaipur: 75.8000, 26.9000
+Chandigarh: 76.7800, 30.7500
+Chennai: 80.2707, 13.0827
