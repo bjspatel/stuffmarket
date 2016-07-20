@@ -1,8 +1,8 @@
 {
     "sessionSecret": "mysecret",
     "fb": {
-        "appId": "703216259810464",
-        "secret": "f7383ed8197c5175f0d5da176b3ee88f",
+        "appId": "7032162510464",
+        "secret": "f7383ed8197c5175f0d5da176b3eef",
         "apiVersion": "v2.4"
     },
     "dbUrl": "mongodb://localhost:27017/stuffmarket",
